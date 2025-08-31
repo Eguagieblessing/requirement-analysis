@@ -152,9 +152,58 @@ Requirements serve as the blueprint for all subsequent phases of development. De
 -  The system shall allow admins to generate reports on bookings and payments.
 
 - Non-Functional Requirements
-
--  The admin dashboard shall be accessible only to authorized users.
+  -  The admin dashboard shall be accessible only to authorized users.
 
 -  Reports shall be generated within 10 seconds.
 
 -  The admin panel shall be responsive and accessible from mobile devices.
+
+
+  ## Use Case Diagrams
+
+  ## Acceptance Criteria
+
+- Defines “Done” Clearly
+
+-  Acceptance criteria specify the exact conditions a feature must meet before it is considered complete.
+
+-  This prevents misunderstandings between stakeholders and developers.
+
+  - Improves Communication
+
+-  Creates a shared understanding between business analysts, developers, testers, and clients.
+
+-  Everyone knows what success looks like for each requirement.
+
+- Basis for Testing
+
+-  Acceptance criteria act as the foundation for test cases.
+
+-  QA teams can verify whether the feature meets business needs.
+
+- Reduces Scope Creep
+
+-  By clearly stating what is included (and what is not), acceptance criteria prevent unnecessary features or last-minute changes.
+
+-  Ensures User Satisfaction
+
+-  Aligns the final product with the user’s expectations and business goals.
+
+- Example: Acceptance Criteria for Checkout Feature
+
+-  Feature: Checkout in Booking Management System
+
+- Acceptance Criteria:
+
+-  Users must be able to review their booking details before checkout.
+
+-  Users must be able to select a payment method (credit card, debit card, or mobile payment).
+
+-  Payment must be processed securely via the payment gateway.
+
+-  A confirmation page must be displayed after successful payment, showing booking ID and receipt.
+
+-  The system must send a confirmation email/SMS within 2 minutes of successful checkout.
+
+-  If payment fails, the system must display a clear error message and allow the user to retry.
+
